@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State pattern functionality</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="counter">
+        <h1 class="counter-title">State Pattern Counter</h1>
+
+        <div class="value-container btn-common-stye">
+            <span id="counterValue" class="counter-value">0</span>
+        </div>
+
+        <div class="counter-btn-container">
+            <button id="countDecr" class="btn-common-stye counter-decr">-</button>
+            <button id="countIncr" class="btn-common-stye counter-incr">+</button>
+        </div>
+    </div>
+
+    <script type="module" src="./controller.js "></script>
+    <script type="module" src="./increment_module.js "></script>
+    <script type="module" src="./decrement_module.js "></script>
+
+</body>
+
+</html>
